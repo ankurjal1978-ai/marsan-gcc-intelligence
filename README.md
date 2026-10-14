@@ -1,6 +1,6 @@
 # MarSan GCC Intelligence
 
-The assessment frontend is a single self-contained HTML file: [index.html](index.html). It includes the page layout, CSS, and browser JavaScript. [privacy.html](privacy.html) is self-contained too. Download [MarSan-GCC-Single-HTML-Source.zip](MarSan-GCC-Single-HTML-Source.zip) for the complete frontend, server-side calculation, lead capture, database migration, and deployment configuration. The older Portable-Source ZIP is superseded.
+The assessment frontend is a single self-contained HTML file: [index.html](index.html). It includes the page layout, CSS, and browser JavaScript. [privacy.html](privacy.html) is self-contained too. Download [MarSan-GCC-Single-HTML-Source.zip](MarSan-GCC-Single-HTML-Source.zip) for the complete frontend, server-side calculation, lead capture, database migration, and deployment configuration.
 
 HTML alone cannot securely save leads or keep the savings calculation on the server. The included JavaScript server accepts a valid company email, stores the lead, then returns results. It has no OTP or automatic email delivery. The source is public, so MarSan should review the provisional savings assumptions before launching a campaign.
 
